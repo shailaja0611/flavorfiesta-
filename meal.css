@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    font-size: 40px;
+    background-image: url(meal.images/back\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.A {
+    padding: 1rem;
+    margin: 1rem;
+
+   
+}
+
+.A h2 {
+    color: #0b3ecc;
+}
+
+.A p {
+    margin: 0.5rem 0;
+}
+
+.A a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.A a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 1rem;
+    background-color: #fff;
+    margin: 1rem;
+
+    
+}
+
+.sidebar {
+    flex: 1;
+    max-width: 200px;
+    margin-right: 2rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 0.5rem 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    flex: 2;
+}
+
+.shopping-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.shopping-list li {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #e0f7fa;
+    border-radius:5px;
+}
+.B1-B2{
+    display: flex;
+}
+.B1 h2{
+  font-size: 40px;
+  color: #4c8b0c;
+   
+  
+}
+.B1 h1{
+    font-size: 30px;
+    color:#8f2020;
+}
+.B1 ul{
+    font-size: 20px;
+
+}
+.B2 img{
+
+    height: 300px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.C1-C2{
+    font-size: 40px;
+}   
+.C1 ul li{
+    font-size: 20px;
+}
+
+.C2 ul li{
+    font-size: 20px;
+}
+.slider-container {
+    width: 80%;
+    overflow: hidden;
+    margin-left: 100px;
+}
+  
+.slider {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+  
+.card {
+    min-width: 300px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+.card img {
+    width: 100%;
+    height: auto;
+}
+  
+.card p {
+    padding: 15px;
+    text-align: center;
+    font-size:1.2rem;
+}
