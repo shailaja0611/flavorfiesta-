@@ -146,7 +146,7 @@ header {
   
 .card img {
     width: 100%;
-    height: auto;
+    height:50%;
 }
   
 .card p {
@@ -154,3 +154,42 @@ header {
     text-align: center;
     font-size:1.2rem;
 }
+.slider-container :hover{
+    transform: translate(-5px);
+}
+
+.slider-container2 {
+    width: 80%;
+    overflow: hidden;
+    margin-left: 130px;
+}
+  
+.slider {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+  
+.card {
+    min-width: 300px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+.card img {
+    width: 100%;
+    height: 50%;
+}
+  
+.card p {
+    padding: 15px;
+    text-align: center;
+    font-size:1.2rem;
+}
+.slider-container2 :hover{
+    transform: translate(-5px);
+}
+
+
