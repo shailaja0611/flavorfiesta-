@@ -1,0 +1,116 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+    background-color: #f4f4f4;
+    animation: fadeIn 1s ease-in-out;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    background-image: url('nutritional.images/1mag.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: fadeIn 2s ease-in-out;
+    height: 200px;
+    font-size: 50px;
+}
+
+h1 {
+    margin-left: 60px;
+    
+}
+
+.B1-B2{
+    display: flex;
+}
+.B1 h2{
+  font-size: 40px;
+  color: #4c8b0c;
+  
+  
+}
+.B1 p{
+    font-size: 30px;
+    color:#8f2020;
+    margin-right: 100px;
+    
+}
+.B1 ul{
+    font-size: 20px;
+
+
+}
+.B2 img{
+
+    height: 300px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.c1-c2{
+    display: flex;
+}
+.c1 h2{
+  font-size: 40px;
+  color: #4c8b0c;
+  
+  
+}
+.c1 p{
+    font-size: 30px;
+    color:#8f2020;
+    margin-right: 100px;
+    
+}
+.c1 ul{
+    font-size: 20px;
+
+
+}
+.c2 img{
+
+    height: 300px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.D1-D2{
+    display: flex;
+}
+.D1 h2{
+  font-size: 40px;
+  color: #4c8b0c;
+  
+  
+}
+.D1 p{
+    font-size: 30px;
+    color:#8f2020;
+    margin-right: 100px;
+    
+}
+.D1 ul{
+    font-size: 20px;
+
+
+}
+.D2 img{
+    height: 300px;
+    width: 500px;
+    margin-left: 180px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+
