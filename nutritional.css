@@ -54,9 +54,16 @@ h1 {
     height: 300px;
     width: 500px;
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top:250px;
     border-radius: 15px;
+    
+
 }
+
+.B2 img:hover{
+    transform: scale(1.1);
+}
+
 .c1-c2{
     display: flex;
 }
@@ -82,9 +89,14 @@ h1 {
     height: 300px;
     width: 500px;
     margin-left: 200px;
-    margin-top: 100px;
+    margin-top: 150px;
     border-radius: 15px;
 }
+
+.c2 img:hover{
+    transform: scale(1.1);
+}
+
 .D1-D2{
     display: flex;
 }
@@ -108,9 +120,12 @@ h1 {
 .D2 img{
     height: 300px;
     width: 500px;
-    margin-left: 180px;
-    margin-top: 100px;
+    margin-left: 110px;
+    margin-top: 150px;
     border-radius: 15px;
+    
 }
-
+.D2 img:hover{
+    transform: scale(1.1);
+}
 

@@ -5,9 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>meal palnner</title>
     <link rel="stylesheet" href="meal.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 </head>
 <body>
-    <header>
+  <nav>
+    <ul class="ul1">
+        <li><a href="">Home</a></li>
+        <li class="navitem"><a href="">Recipies</a>
+            <div class="dropdown">
+                <a href="">Recipies</a>
+                <a href="">Tutorials</a>
+                <a href="">live classes</a>
+            </div>
+        </li>
+        <li><a href="">Restaurants</a></li>
+    </ul>
+    <a href=""><img src="meal.images/logo.png" alt=""></a>
+    <ul class="ul2">
+        <li><a href="">Schedule</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Reviews</a></li>
+        <li><a href=""><button>Subscribe</button></a></li>
+        <li><a href=""><a href=""><ion-icon name="menu"></ion-icon></a></a></li>
+    </ul>
+  </nav>
+<header>
         <h1>MEAL PLANNER</h1>
     </header>
     <section class="A">      
@@ -74,6 +97,8 @@
         </ul>
         </div>
       </div>
+      
+        
       <div class="slider-container">
         <div class="slider" id="slider">
           <div class="card">
@@ -107,10 +132,65 @@
       </div>
       </div>
     </div>
+
+    <div class="D">
+      <h1>Recipes</h1>
+      <p>A recipe developer is a member of the food service industry with extensive culinary arts knowledge and training<br>
+        They create new and inventive recipes to improve customer appeal and aid business success.</p>
+    </div>
+    
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <img src="meal.images/cake img.jpg" alt="Image 1">
+          </div>
+          <div class="swiper-slide">
+              <img src="meal.images/pizza 1.jpg" alt="Image 2">
+          </div>
+          <div class="swiper-slide">
+              <img src="meal.images/food3.jpg" alt="Image 3">
+          </div>
+          <div class="swiper-slide">
+            <img src="meal.images/food2.jpg" alt="Image 4">
+        </div>
+        <div class="swiper-slide">
+            <img src="meal.images/food img.jpg" alt="Image 5">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+  </div>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+      var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+          },
+          pagination: {
+              el: '.swiper-pagination',
+          },
+          navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+          },
+      });
+  </script>
+
+    
+
+    
    
-
-  
-
+     
       
      
       
