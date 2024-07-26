@@ -116,12 +116,16 @@ nav a {
     border: 2px solid #4CAF50;
 }
 .how-it-works, .menu, .special-offers, .special-meals :hover{
-  transform: translateY(-5px);
+   transform: translateY(10px);
+   animation: mymove 5s infinite;
+   
 
 }
 .menu :hover{
-    transform: translate(-5px);
+    transform: scale(1.1);
 }
 .how-it-works{
-    transform: translateY(-5px);
+     transform: translateY(-5px);
+     animation: fadeinscale 3s ease-in-out;
 }
+ 

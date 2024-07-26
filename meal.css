@@ -89,7 +89,7 @@ nav ion-icon{
     }
 }
 header{
-    animation: fadeinscale 1s ease-in-out;
+    animation: fadeinscale 2s ease-in-out;
     height: 200px;
     margin: 20px 0;
     padding: 20px;
@@ -177,10 +177,12 @@ header{
 }
 .B1-B2{
     display: flex;
+    padding: 20px;
 }
 .B1 h2{
   font-size: 40px;
   color: #4c8b0c;
+  padding: 20px;
    
   
 }
@@ -231,7 +233,7 @@ header{
   
 .card img {
     width: 200%;
-    height:70%;
+    height:90%;
 }
   
 .card p {
@@ -280,9 +282,11 @@ header{
     font-size:1.2rem;
 }
 .card img:hover{
-    transform: scale(1.1);
+     transform: scale(1.1); 
+    
     
 }
+
 .D{
     padding: 10px;
 }

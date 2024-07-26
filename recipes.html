@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="recipes.css">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</head>
+<body>
+    <nav>
+        <ul class="ul1">
+            <li><a href="">Home</a></li>
+            <li class="navitem"><a href="">Recipes</a>
+                <div class="dropdown">
+                    <a href="">Recipes</a>
+                    <a href="">Tutorials</a>
+                    <a href="">Live Classes</a>
+                </div>
+            </li>
+            <li><a href="">Restaurants</a></li>
+        </ul>
+        <a href=""><img src="recipes.images/logo.png" alt="Logo"></a>
+        <ul class="ul2">
+            <li><a href="">Schedule</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Reviews</a></li>
+            <li><a href=""><button>Subscribe</button></a></li>
+            <li><a href=""><ion-icon name="menu"></ion-icon></a></li>
+        </ul>
+    </nav>
+  <div class="carousel">
+    <div class="list">
+    <div class="item">
+      <img src="recipes.images/back 1.jpg" alt="Recipe Image 1">
+       <div class="content">
+        <div class="author">LUNDEV</div>
+        <div class="title">Recipes and Cooking Guides</div>
+        <div class="topic">Recipes</div>
+        <div class="des">
+            It lays out all the ingredients that a reader will need to recreate the recipe at home. It should contain the amount of the ingredient needed, as well as the name of the ingredient. Normally each ingredient is on a separate line and listed in the order it is used in the recipe.
+        </div>
+        <div class="buttons">
+        <button>SEE MORE</button>
+        <button>SUBSCRIBE</button>
+        </div>
+        </div>
+        </div>
+        <div class="item">
+         <img src="recipes.images/back 2.jpg" alt="Recipe Image 2">
+         <div class="content">
+     <div class="author">LUNDEV</div>
+        <div class="title">Recipes and Cooking Guides</div>
+        <div class="topic">Recipes</div>
+        <div class="des">
+          It lays out all the ingredients that a reader will need to recreate the recipe at home. It should contain the amount of the ingredient needed, as well as the name of the ingredient. Normally each ingredient is on a separate line and listed in the order it is used in the recipe.
+        </div>
+    <div class="buttons">
+     <button>SEE MORE</button>
+     <button>SUBSCRIBE</button>
+     </div>
+     </div>
+     </div>
+     <div class="item">
+    <img src="recipes.images/back img 1.jpg" alt="Recipe Image 3">
+    <div class="content">
+     <div class="author">LUNDEV</div>
+        <div class="title">Recipes and Cooking Guides</div>
+            <div class="topic">Recipes</div>
+            <div class="des">
+         It lays out all the ingredients that a reader will need to recreate the recipe at home. It should contain the amount of the ingredient needed, as well as the name of the ingredient. Normally each ingredient is on a separate line and listed in the order it is used in the recipe.
+        </div>
+        <div class="buttons">
+         <button>SEE MORE</button>
+         <button>SUBSCRIBE</button>
+            </div>
+        </div>
+    </div>
+    <div class="item">
+    <img src="recipes.images/back img 2.jpg" alt="Recipe Image 4">
+    <div class="content">
+    <div class="author">LUNDEV</div>
+    <div class="title">Recipes and Cooking Guides</div>
+    <div class="topic">Recipes</div>
+    <div class="des">
+     It lays out all the ingredients that a reader will need to recreate the recipe at home. It should contain the amount of the ingredient needed, as well as the name of the ingredient. Normally each ingredient is on a separate line and listed in the order it is used in the recipe.
+    </div>
+    <div class="buttons">
+     <button>SEE MORE</button>
+    <button>SUBSCRIBE</button>
+     </div>
+    </div>
+    </div>
+    </div>
+        <div class="arrows">
+            <button id="prev"></button>
+            <button id="next">></button>
+        </div>
+        <div class="time"></div>
+    </div>
+    
+    <div class="c">
+        <h1>Best recipes</h1>
+    </div>
+
+    <section class="featured-dishes">
+        <div class="container">
+            <h2>Featured Dishes</h2>
+            <div class="dish-card">
+                <img src="recipes.images/Grilled Salmon1.jpg" alt="Dish 1">
+                <h3>Grilled Salmon</h3>
+                <p>Succulent salmon grilled to perfection, served with a lemon butter sauce.</p>
+            </div>
+            <div class="dish-card">
+                <img src="recipes.images/Beef Wellington2.jpg" alt="Dish 2">
+                <h3>Beef Wellington</h3>
+                <p>Tender beef fillet encased in puff pastry, served with a rich red wine sauce.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="recipes">
+        <div class="container">
+            <h2>Recipes</h2>
+            <div class="recipe-card">
+                <img src="recipes.images/Spaghetti Carbonara 4.jpg" alt="Recipe 1">
+                <h3>Spaghetti Carbonara</h3>
+                <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="recipes.images/Chicken Alfredo5.jpg" alt="Recipe 2">
+                <h3>Chicken Alfredo</h3>
+                <p>Creamy Alfredo sauce served over tender fettuccine and juicy chicken.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="recipes.images/Margherita Pizza6.jpg" alt="Recipe 3">
+                <h3>Margherita Pizza</h3>
+                <p>A simple yet delicious pizza topped with fresh tomatoes, mozzarella, and basil.</p>
+            </div>
+            
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+
+    <script>
+        let nextDom = document.getElementById('next');
+        let prevDom = document.getElementById('prev');
+
+        let carouselDom = document.querySelector('.carousel');
+        let SliderDom = carouselDom.querySelector('.carousel .list');
+        let timeRunning = 3000;
+        let timeAutoNext = 7000;
+
+        nextDom.onclick = function() {
+            showSlider('next');    
+        }
+
+        prevDom.onclick = function() {
+            showSlider('prev');    
+        }
+
+        let runTimeOut;
+        let runNextAuto = setTimeout(() => {
+            nextDom.click();
+        }, timeAutoNext);
+
+        function showSlider(type) {
+            let SliderItemsDom = SliderDom.querySelectorAll('.carousel .list .item');
+            
+            if (type === 'next') {
+                SliderDom.appendChild(SliderItemsDom[0]);
+                carouselDom.classList.add('next');
+            } else {
+                SliderDom.prepend(SliderItemsDom[SliderItemsDom.length - 1]);
+                carouselDom.classList.add('prev');
+            }
+            
+            clearTimeout(runTimeOut);
+            runTimeOut = setTimeout(() => {
+                carouselDom.classList.remove('next');
+                carouselDom.classList.remove('prev');
+            }, timeRunning);
+
+            clearTimeout(runNextAuto);
+            runNextAuto = setTimeout(() => {
+                nextDom.click();
+            }, timeAutoNext);
+        }
+    </script>
+</body>
+</html>
