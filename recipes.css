@@ -454,3 +454,89 @@ nav ul li a {
     color: #666;
 }
 
+.cook h1 {
+    
+    text-align: center;
+
+
+}   
+main {
+    margin: 20px;
+}
+
+section {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+
+.i1-i2{
+    display: flex;
+    margin-left: 20px;
+}
+.i1 h2{
+  font-size: 40px;
+  color: #4c8b0c;
+  
+      
+}
+.i1 ul{
+    font-size: 20px;
+
+
+}
+.i2 img{
+
+    height: 300px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+.i2 img:hover{
+    transform: scale(1.1);
+}
+.j1-j2{
+    display: flex;
+    margin-left: 20px;
+}
+.j1 h2{
+  font-size: 40px;
+  color: #4c8b0c;
+  
+      
+}
+.j1 ul{
+    font-size: 20px;
+
+
+}
+.j2 img{
+
+    height: 300px;
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 150px;
+    border-radius: 15px;
+}
+
+.j2 img:hover{
+    transform: scale(1.1);
+}
+
+
+
